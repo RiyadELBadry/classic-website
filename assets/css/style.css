@@ -179,3 +179,19 @@ nav ul {
   height: 70px;
   background-color: rgba(105, 105, 105, 0.4);
 }
+
+@media (max-width: 991px) {
+  .big-name {
+    font-size: 4.5rem;
+  }
+  .image-wrap {
+    bottom: 48%;
+  }
+  nav ul {
+    display: none;
+  }
+  .line {
+    height: 60px;
+    bottom: 60px;
+  }
+}
